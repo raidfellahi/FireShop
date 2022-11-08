@@ -4,9 +4,9 @@ import {FaShoppingBasket} from 'react-icons/fa'
 import { IoIosArrowDown} from "react-icons/io";
 export default function NavPage() {
   return (
-        <div  className='w-full h-[80vh] bg-cover f-col 
+        <div  className='w-full h-[95vh] bg-cover bg-center f-col transition-opacity
          bg-[url("https://images.wallpaperscraft.com/image/single/laptop_keyboard_glow_181211_2560x1024.jpg")]  '>
-                <div className='w-full h-[95%] pt-36 px-64'>
+                <div className='w-full h-[95%] pt-56 px-64'>
                     <div className='f-col text-white w-[420px] '>
                         <span className='uppercase text-sm font-semibold opacity-75'>For you and everyone</span>
                         <h1 className='text-5xl font-bold mt-3'>Fireshop store</h1>
@@ -26,7 +26,7 @@ export default function NavPage() {
                 </div>
             <div className='w-full flex h-[5%] center'>
                 <a className=' delay text-3xl mb-5  
-                    opacity-80 hover:opacity-100 text-white' href="#features">
+                    opacity-80 hover:opacity-100 text-white' href='#n'>
                     <IoIosArrowDown  />
                 </a>
             </div>    
