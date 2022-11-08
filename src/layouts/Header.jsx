@@ -4,13 +4,13 @@ export default function Header() {
 
 
   return (
-    <div className='between px-4 bg-darkpurple-600 text-white text-xl w-full h-16 font-medium sticky ' >
-        <div className='font-semibold text-orange-400 center'>
+    <div className='between  bg-darkpurple-600 text-white text-xl w-full h-16 font-medium  px-36' >
+        <div className='font-semibold text-white center'>
           <FcShop className='mr-1'  />
           <p>FireShop</p>
         </div>
         <div className='flex items-center delay  '>
-            <span className='mx-4 delay hover:opacity-90' >Login</span>
+            <span className=' delay hover:opacity-90' >Login</span>
         </div>
         
     </div>
